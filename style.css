@@ -1,0 +1,203 @@
+body{
+    font-family: "Rubik", sans-serif;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+body, ul {
+
+list-style: none;
+}
+
+header {
+background: white;
+}
+
+
+.logo img {
+width: 60%; 
+}
+
+.nav-items {
+display: flex;
+gap: 21px;
+
+
+}
+
+.item a {
+text-decoration: none;
+color: #5e5c5c;
+font-weight: 500;
+font-size: 0.9em;
+}
+
+.button button {
+padding: 10px  10px;
+font-size: 13px;
+cursor: pointer;
+background-color: white;
+color: red;
+border: 1px solid red;
+border-radius: 7px;
+margin-left: 100px;
+
+
+}
+
+.fa-regular.fa-heart {
+margin-left: 200px; 
+padding-right:10px ;
+font-size: 20px;}
+
+.button button:hover {
+background-color: #0056b3;
+
+}
+.bee{
+text-align: center;
+font-size: 35px;
+font-family: 'Courier New', Courier, monospace;
+}
+#container{
+display: flex;
+gap: 20px;
+justify-content: space-between;
+
+}
+#box-container{
+display: flex;
+justify-content: center;
+gap: 20px;
+
+}
+.box{
+width: 25%;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+padding: 10px;
+margin-top: 40px;
+border-radius: 8px;
+}
+.box p{
+color: rgb(126, 124, 124);
+}
+#blog {
+display: flex;
+justify-content: center;
+gap: 14px; /* Add some spacing between the boxes */
+}
+
+.blog-box {
+width: 30%;
+display: flex;
+flex-direction: column;
+border: 1px solid #ddd;
+
+border-radius: 10px; /* Set the border radius for the box */
+padding-bottom: 10px;
+
+}
+
+.blog-box img {
+width: 100%;
+height: 250px; /* Set a fixed height for the images */
+object-fit: cover; /* Ensure the image covers the area without distortion */
+display: block; /* Remove any bottom space/margin */
+border-top-left-radius: 10px; /* Match the container's top-left corner radius */
+border-top-right-radius: 10px; /* Match the container's top-right corner radius */
+
+}
+.blog-box span{
+margin: 10px;
+color: rgb(126, 124, 124);
+}
+.blog-box h3 {
+margin: 10px;
+}
+.blog-box p{
+margin: 10px;
+color: rgb(126, 124, 124);
+}
+#blog-container{
+margin-top: 130px;
+margin-bottom: 50px;
+}
+.blog-heading{
+padding-left: 50px;
+font-size: 26px;
+}
+
+input{
+display: block;
+
+}
+#form{
+width: 50%;
+padding: 30px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.formbox>h1{
+text-align: center;
+font-weight: 800;
+font-size: 1.4em;
+}
+.formbox>.sign{
+text-align: center;
+font-weight: 600;
+font-size: 1em;
+}
+span{
+color: #007bff;
+}
+input{
+width: 100%;
+margin-bottom: 10px;
+margin-top: 9px;
+padding-top: 14px;
+padding-bottom: 14px;
+border-radius: 8px;
+border: 1px solid rgb(231, 229, 229);
+}
+.btn{
+width: 100%;
+font-size: 15px;
+padding: 14px;
+border-radius: 8px;
+margin-top: 10px;
+margin-left: 10px;
+background-color: #007bff;
+color: white;
+border: none;
+}
+#form-container{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center; /* Centers vertically */
+background-color: rgb(237, 217, 68);
+}
+.label{
+font-size: 1em;
+font-weight: 500;
+
+}
+input::placeholder{
+font-size: 16px;
+padding-left: 10px;
+font-weight: 500;
+color: rgb(171, 168, 168);
+}
+.term{
+font-weight: 100;
+text-align: center;
+
+}
+.fa-angle-down{
+color: rgb(237, 217, 68);
+}
