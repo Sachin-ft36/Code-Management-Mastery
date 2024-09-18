@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Rubik", sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        nav img {
+            width: 150px;
+        }
+        ul {
+            display: flex;
+            gap: 30px;
+            list-style-type: none;
+        }
+        ul li {
+            color: black;
+            font-weight: 500;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        ul li:hover {
+            color: #ffb347;
+        }
+        .btn {
+            background-color: #ffb347;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #ff8800;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            margin: 30px 20px;
+        }
+        .box {
+            width:20%;
+            display: inline-block;
+            margin-right: 30px; 
+        }
+        p {
+            text-align: justify;
+            padding-top: 10px;
+            color: rgb(75, 75, 87);
+            font-weight: 500;
+    
+        }
+        img {
+            width: 120px;
+        }
+        h1 {
+            color: rgb(73, 75, 87);
+            width: 600px;
+            margin: 20px 0;
+            margin-left: 50px;
+        }
+          .main {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            justify-content:center ;
+            gap: 60px;
+            margin: 40px 0;
+            margin-top: 90px;
+        }
+        .main img {
+            width: 28%;
+            object-fit: cover;
+        }
+        .text-content {
+            max-width: 30%;
+            margin-top: 50px;
+        }
+        .text-content h3 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: rgb(75, 75, 87);;
+        }
+        .text-content p {
+            font-size: 16px;
+            margin-top: 20px;
+            color:rgb(75, 75, 87);
+        }
+        .matter{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo.jpeg" alt="Logo"> <!-- Add your logo here -->
+        <ul>
+            <li>Products <i class="fa-solid fa-angle-down"></i></li>
+            <li>Coins</li>
+            <li>Ventures</li>
+            <li>Blog</li>
+            <li>Company <i class="fa-solid fa-angle-down"></i></li>
+        </ul>
+        <button class="btn">Login To Pro</button>
+    </nav>
+    <section class="main">
+        <img src="img.jpeg" alt="">
+        <div class="text-content">
+            <h4 style="color: rgb(75, 75, 87);;">We believe that Web3 and blockchain are the foundations of the new digital, decentralized economy.</h4>
+            <p>To this end, we're partnering with startups that are advancing the future of blockchain technology. We provide early stage founders with the capital, network connections and most importantly, the advice they need to transform the Web3 landscope in India.</p>
+        </div>
+       
+    </section>
+    <section class="matters">
+        <h1 class="matter">Why it Matters?</h1>
+        <div class="container">
+            <div class="box">
+                <img class="l1" src="1.jpeg" alt="">
+                <p>Partnership with India's largest wealth tech destination</p>
+            </div>
+            <div class="box">
+                <img class="l2" src="2.jpeg" alt="">
+                <p>Access to a network of 70+ global venture capital partners</p>
+            </div>
+            <div class="box">
+                <img class="l3" src="3.jpeg" alt="">
+                <p>Capital infusion up to &#x24;250,000</p>
+            </div>
+            <div class="box">
+                <img class="l4" src="4.jpeg" alt="">
+                <p>Mentorship from in-house experts</p>
+            </div>
+        </div>
+    </section>
+   
+    <script src="https://kit.fontawesome.com/45d11ce942.js" crossorigin="anonymous"></script>
+</body>
+</html>
